@@ -1,0 +1,19 @@
+<svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="38"
+          height="38"
+          viewBox="0 0 38 38"
+          fill="none"
+        >
+          <rect
+            x="1"
+            y="1"
+            width="36"
+            height="36"
+            stroke="black"
+            strokeWidth="2"
+          />
+          <path d="M26 14L12 14" stroke="black" strokeWidth="2" />
+          <path d="M26 19L12 19" stroke="black" strokeWidth="2" />
+          <path d="M26 24L12 24" stroke="black" strokeWidth="2" />
+        </svg>
