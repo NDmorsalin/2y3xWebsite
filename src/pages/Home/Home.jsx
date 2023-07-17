@@ -11,6 +11,7 @@ import AgencyName from "../../components/Home/AgencyNames/AgencyName";
 import FreeHindsight from "../../components/Home/FreeHindsight/FreeHindsight";
 import Revenue from "../../components/Home/Revenue/Revenue";
 import ClientSay from "../../components/Home/ClientSay/ClientSay";
+import OurProgrammes from "../../components/Home/OurProgrammes/OurProgrammes";
 
 const agencyNames = [
   {
@@ -74,8 +75,11 @@ const Home = () => {
       {/* client start */}
       <ClientSay />
       {/* client end */}
-
       
+{/* our programmes start */}
+      <OurProgrammes/>
+{/* our programmes end */}
+
     </>
   );
 };
