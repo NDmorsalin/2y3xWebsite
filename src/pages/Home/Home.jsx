@@ -17,6 +17,7 @@ import ConsistentResults from "../../components/Home/ConsistentResults/Consisten
 import Strengths from "../../components/Home/Strengths/strengths";
 import FeaturedInsights from "../../components/Home/FeaturedInsights/FeaturedInsights";
 import FeaturedPodcasts from "../../components/Home/FeaturedPodcasts/FeaturedPodcasts";
+import ScaleAtSpeed from "../../components/Home/ScaleAtSpeed/ScaleAtSpeed";
 
 const agencyNames = [
   {
@@ -105,6 +106,11 @@ const Home = () => {
       {/* Featured Podcasts */}
       <FeaturedPodcasts />
       {/* Featured Podcasts */}
+
+      {/* Scale at speed */}
+
+      <ScaleAtSpeed />
+      {/* Scale at speed */}
     </>
   );
 };

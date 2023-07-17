@@ -82,10 +82,9 @@ const FeaturedPodcasts = () => {
         </div>
       </div>
 
-      <div className="flex items-center justify-center"><SectionButton>
-        See more
-      </SectionButton></div>
-
+      <div className="flex items-center justify-center">
+        <SectionButton>See more</SectionButton>
+      </div>
     </section>
   );
 };
