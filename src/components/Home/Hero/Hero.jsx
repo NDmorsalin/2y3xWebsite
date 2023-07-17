@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div>
       {/* hero section start */}
-      <div className="w-full h-[896px] flex items-center justify-center text-center relative top-0 left-0 z-0 overflow-hidden   ">
+      <div className="w-full h-[896px] flex items-center justify-center text-center relative top-0 left-0 z-0 overflow-hidden radar">
         <div className="w-10/12 mx-auto flex flex-col gap-8">
           <p className="">
             It’s time for <span className="">2Y3X</span>
@@ -21,16 +21,13 @@ const Hero = () => {
 
           {/* action button */}
           <div className="w-fit mx-auto">
-            <SectionButton>
-            Take the fast self assessment
-            </SectionButton>
+            <SectionButton>Take the fast self assessment</SectionButton>
           </div>
         </div>
-       {/*  <div
-        //   todo add animation
-          className="w-[2500px] h-[2500px] left-1/2 top-1/2 absolute transform -translate-x-1/2 -translate-y-1/2 animate-spin "
-        ></div> */}
-      </div> 
+        <div className="circle circle-1"></div>
+        <div className="circle circle-2"></div>
+        <div className="circle circle-3"></div>
+      </div>
       {/* hero section End */}
     </div>
   );

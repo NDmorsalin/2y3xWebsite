@@ -7,6 +7,40 @@ import WhiteBear from "../../assets/AgenciesNames/WhiteBear.svg";
 import Rawnet from "../../assets/AgenciesNames/Rawnet.svg";
 
 import Hero from "../../components/Home/Hero/Hero";
+import AgencyName from "../../components/Home/AgencyNames/AgencyName";
+
+import freeHindsightImg from "../../assets/freeHindsight.png";
+
+const agencyNames = [
+  {
+    name: "Bynd",
+    img: Bynd,
+  },
+  {
+    name: "Deeson",
+    img: Deeson,
+  },
+  {
+    name: "Fishinabottle",
+    img: Fishinabottle,
+  },
+  {
+    name: "Impero",
+    img: Impero,
+  },
+  {
+    name: "Synthetic",
+    img: Synthetic,
+  },
+  {
+    name: "WhiteBear",
+    img: WhiteBear,
+  },
+  {
+    name: "Rawnet",
+    img: Rawnet,
+  },
+];
 
 const Home = () => {
   return (
@@ -23,71 +57,67 @@ const Home = () => {
           </h2>
         </div>
         <div className="flex-1 flex items-center flex-wrap gap-8 justify-center ">
-          <div className="w-[calc(50%-2rem)] md:w-[calc(25%-2rem)] flex items-center justify-center relative group overflow-hidden h-56 p-4">
-            <div className="absolute bg-[#FFB902] w-full h-full top-[calc(100%-2px)] duration-300 group-hover:top-0 left-0 -z-10 "></div>
-            <img
-              src={Bynd}
-              alt=""
-              className="translate-y-0 group-hover:-translate-y-12  duration-300 "
-            />
-          </div>
-
-          <div className="w-[calc(50%-2rem)] md:w-[calc(25%-2rem)] flex items-center justify-center relative group overflow-hidden h-56 p-4">
-            <div className="absolute bg-[#FFB902] w-full h-full top-[calc(100%-2px)] duration-300 group-hover:top-0 left-0 -z-10"></div>
-            <img
-              src={Synthetic}
-              alt=""
-              className="translate-y-0 group-hover:-translate-y-12  duration-300 "
-            />
-          </div>
-
-          <div className="w-[calc(50%-2rem)] md:w-[calc(25%-2rem)] flex items-center justify-center relative group overflow-hidden h-56 p-4">
-            <div className="absolute bg-[#FFB902] w-full h-full top-[calc(100%-2px)] duration-300 group-hover:top-0 left-0 -z-10"></div>
-            <img
-              src={Fishinabottle}
-              alt=""
-              className="translate-y-0 group-hover:-translate-y-12  duration-300 "
-            />
-          </div>
-
-          <div className="w-[calc(50%-2rem)] md:w-[calc(25%-2rem)] flex items-center justify-center relative group overflow-hidden h-56 p-4">
-            <div className="absolute bg-[#FFB902] w-full h-full top-[calc(100%-2px)] duration-300 group-hover:top-0 left-0 -z-10"></div>
-            <img
-              src={Rawnet}
-              alt=""
-              className="translate-y-0 group-hover:-translate-y-12  duration-300 "
-            />
-          </div>
-
-          <div className="w-[calc(50%-2rem)] md:w-[calc(25%-2rem)] flex items-center justify-center relative group overflow-hidden h-56 p-4">
-            <div className="absolute bg-[#FFB902] w-full h-full top-[calc(100%-2px)] duration-300 group-hover:top-0 left-0 -z-10"></div>
-            <img
-              src={Impero}
-              alt=""
-              className="translate-y-0 group-hover:-translate-y-12  duration-300 "
-            />
-          </div>
-
-          <div className="w-[calc(50%-2rem)] md:w-[calc(25%-2rem)] flex items-center justify-center relative group overflow-hidden h-56 p-4">
-            <div className="absolute bg-[#FFB902] w-full h-full top-[calc(100%-2px)] duration-300 group-hover:top-0 left-0 -z-10"></div>
-            <img
-              src={WhiteBear}
-              alt=""
-              className="translate-y-0 group-hover:-translate-y-12  duration-300 "
-            />
-          </div>
-
-          <div className="w-[calc(50%-2rem)] md:w-[calc(25%-2rem)] flex items-center justify-center relative group overflow-hidden h-56 p-4">
-            <div className="absolute bg-[#FFB902] w-full h-full top-[calc(100%-2px)] duration-300 group-hover:top-0 left-0 -z-10"></div>
-            <img
-              src={Deeson}
-              alt=""
-              className="translate-y-0 group-hover:-translate-y-12  duration-300 "
-            />
-          </div>
+          {agencyNames.map((agencyName, index) => (
+            <AgencyName key={index} agnecyName={agencyName} />
+          ))}
         </div>
       </div>
       {/* Agencies we’ve levelled up end */}
+
+      {/* free hindsight start */}
+      <div className="">
+        <div className="w-full">
+          <div className="w-fit relative">
+            <img src={freeHindsightImg} alt="" className="" />
+
+            {/* button Your goal container start */}
+            <div className="absolute top-[20%] left-[12%] group transform rotate-90">
+              {/* button */}
+              <button className="text-black py-2 px-8 bg-white group-hover:bg-[#FFB902] duration-300">
+                Your Goal
+              </button>
+              {/* line */}
+              <div className="absolute w-12 h-[2px] bg-white group-hover:bg-[#FFB902] left-full top-1/2 -translate-y-1/2 duration-300"></div>
+            </div>
+            {/* button Your goal container end */}
+
+            {/* button Implement container start */}
+            <div className="absolute top-[32%] left-[17.4%] group transform rotate-90">
+              {/* button */}
+              <button className="text-black py-2 px-8 bg-white group-hover:bg-[#FFB902] duration-300">
+                Implement
+              </button>
+              {/* line */}
+              <div className="absolute w-12 h-[2px] bg-white group-hover:bg-[#FFB902] left-full top-1/2 -translate-y-1/2 duration-300"></div>
+            </div>
+            {/* button Implement container end */}
+
+            {/* button Implement container start */}
+            <div className="absolute top-[42.5%] left-[12%] group transform rotate-90">
+              {/* button */}
+              <button className="text-black py-2 px-8 bg-white group-hover:bg-[#FFB902] duration-300">
+              Prototype
+              </button>
+              {/* line */}
+              <div className="absolute w-12 h-[2px] bg-white group-hover:bg-[#FFB902] left-full top-1/2 -translate-y-1/2 duration-300"></div>
+            </div>
+            {/* button Implement container end */}
+
+            {/* button Implement container start */}
+            <div className="absolute top-[52.3%] left-[7%] group transform rotate-90">
+              {/* button */}
+              <button className="text-black py-2 px-8 bg-white group-hover:bg-[#FFB902] duration-300">
+              Research
+              </button>
+              {/* line */}
+              <div className="absolute w-12 h-[2px] bg-white group-hover:bg-[#FFB902] left-full top-1/2 -translate-y-1/2 duration-300"></div>
+            </div>
+            {/* button Implement container end */}
+
+          </div>
+        </div>
+      </div>
+      {/* free hindsight end */}
     </>
   );
 };
