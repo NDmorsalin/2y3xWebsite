@@ -10,6 +10,7 @@ import Hero from "../../components/Home/Hero/Hero";
 import AgencyName from "../../components/Home/AgencyNames/AgencyName";
 import FreeHindsight from "../../components/Home/FreeHindsight/FreeHindsight";
 import Revenue from "../../components/Home/Revenue/Revenue";
+import ClientSay from "../../components/Home/ClientSay/ClientSay";
 
 const agencyNames = [
   {
@@ -69,6 +70,12 @@ const Home = () => {
       {/* Revenue video start*/}
       <Revenue />
       {/* Revenue video end*/}
+
+      {/* client start */}
+      <ClientSay />
+      {/* client end */}
+
+      
     </>
   );
 };
