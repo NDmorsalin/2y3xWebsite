@@ -47,16 +47,21 @@ body {
 }
 
 .circle-1{
-    width: 400px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
 }
 
 .circle-2{
-    width: 700px;
-    height: 700px;
+    width: 800px;
+    height: 800px;
 }
 
 .circle-3{
     width: 1000px;
     height: 1000px;
+}
+
+.circle-4{
+    width: 1200px;
+    height: 1200px;
 }

@@ -13,6 +13,9 @@ import Revenue from "../../components/Home/Revenue/Revenue";
 import ClientSay from "../../components/Home/ClientSay/ClientSay";
 import OurProgrammes from "../../components/Home/OurProgrammes/OurProgrammes";
 import Growth from "../../components/Home/Growth/Growth";
+import ConsistentResults from "../../components/Home/ConsistentResults/ConsistentResults";
+import Strengths from "../../components/Home/Strengths/strengths";
+import FeaturedInsights from "../../components/Home/FeaturedInsights/FeaturedInsights";
 
 const agencyNames = [
   {
@@ -81,10 +84,27 @@ const Home = () => {
       <OurProgrammes />
       {/* our programmes end */}
 
+      {/* strengths start */}
+      <Strengths />
+      {/* strengths End */}
+
       {/* Growth  start */}
 
       <Growth />
       {/* Growth  end */}
+
+      {/*  Consistent results start */}
+      <ConsistentResults />
+      {/*  Consistent results end */}
+
+      {/* Featured Insights start */}
+      <FeaturedInsights />
+      {/* Featured Insights end */}
+
+
+      {/* Featured Podcasts */}
+      
+      {/* Featured Podcasts */}
     </>
   );
 };
