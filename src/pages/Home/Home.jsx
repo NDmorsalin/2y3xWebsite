@@ -16,6 +16,7 @@ import Growth from "../../components/Home/Growth/Growth";
 import ConsistentResults from "../../components/Home/ConsistentResults/ConsistentResults";
 import Strengths from "../../components/Home/Strengths/strengths";
 import FeaturedInsights from "../../components/Home/FeaturedInsights/FeaturedInsights";
+import FeaturedPodcasts from "../../components/Home/FeaturedPodcasts/FeaturedPodcasts";
 
 const agencyNames = [
   {
@@ -101,9 +102,8 @@ const Home = () => {
       <FeaturedInsights />
       {/* Featured Insights end */}
 
-
       {/* Featured Podcasts */}
-      
+      <FeaturedPodcasts />
       {/* Featured Podcasts */}
     </>
   );
