@@ -88,7 +88,7 @@ const Home = () => {
       {/* our programmes end */}
 
       {/* strengths start */}
-      {/* <Strengths /> */}
+      <Strengths />
       {/* strengths End */}
 
       {/* Growth  start */}

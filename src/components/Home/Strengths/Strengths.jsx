@@ -1,7 +1,7 @@
 const Strengths = () => {
   return (
-    <div className="py-28 px-10 relative z-0 bg-black text-white text-center overflow-hidden ">
-      <div className="w-8/12 mx-auto space-y-12 relative z-10">
+    <div className="py-28 px-4 md:px-10 relative z-0 bg-black text-white text-center overflow-hidden ">
+      <div className="w-full md:w-8/12 mx-auto space-y-12 relative z-10">
         <div className="flex items-center justify-center animate-spin">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -21,7 +21,7 @@ const Strengths = () => {
             </defs>
           </svg>
         </div>
-        <h3 className="text-7xl te">
+        <h3 className="text-[26px] md:text-7xl">
           Identify your Strengths and weaknesses in under four minutes
         </h3>
         <button className="border-2 border-white py-4 px-10  hover:text-black hover:bg-white duration-300 text-white bg-transparent">
