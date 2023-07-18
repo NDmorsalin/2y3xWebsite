@@ -80,7 +80,7 @@ const Home = () => {
       {/* Revenue video end*/}
 
       {/* client start */}
-      {/* <ClientSay /> */}
+      <ClientSay />
       {/* client end */}
 
       {/* our programmes start */}
