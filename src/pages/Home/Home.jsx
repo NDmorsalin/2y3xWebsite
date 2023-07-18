@@ -87,6 +87,12 @@ const Home = () => {
       <OurProgrammes />
       {/* our programmes end */}
 
+
+      {/*  Consistent results start */}
+      <ConsistentResults />
+      {/*  Consistent results end */}
+
+
       {/* strengths start */}
       <Strengths />
       {/* strengths End */}
@@ -95,10 +101,6 @@ const Home = () => {
 
       {/* <Growth /> */}
       {/* Growth  end */}
-
-      {/*  Consistent results start */}
-      {/* <ConsistentResults /> */}
-      {/*  Consistent results end */}
 
       {/* Featured Insights start */}
       {/* <FeaturedInsights /> */}

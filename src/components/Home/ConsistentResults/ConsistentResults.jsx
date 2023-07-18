@@ -2,15 +2,16 @@ import { FaStar } from "react-icons/fa";
 
 const ConsistentResults = () => {
   return (
-    <div className=" px-10 py-16 flex items-center gap-16 flex-col md:flex-row bg-[#D9D9D9]">
-      <div className="w-fit">
-        <p className="mb-8 font-medium">Making Change</p>
-        <h2 className="text-7xl  mb-8">
-          Consistent <br /> results
+    <div className=" px-4 md:px-10 py-16 flex items-center gap-16 flex-col md:flex-row bg-[#D9D9D9]">
+      <div className="w-fit text-center md:text-start">
+        <p className="md:mb-8 mb-4 font-medium">Making Change</p>
+        <h2 className="text-5xl md:text-7xl mb-4 md:mb-8">
+          Consistent
+          <span className="inline-block md:block">results</span>
         </h2>
       </div>
-      <div className="flex-1 flex items-center flex-wrap gap-4 justify-center ">
-        <div className="flex justify-center  flex-col gap-8 flex-1 p-10 relative group overflow-hidden border border-[#FFB902] bg-white">
+      <div className=" w-full md:flex-1 flex items-center  flex-wrap gap-4 justify-center ">
+        <div className="flex justify-center  flex-col gap-8 w-full md:flex-1 px-4 py-6 md:px-10 md:py-10 relative group overflow-hidden border border-[#FFB902] bg-white">
           {/* ratings  */}
           <div className="flex items-center gap-2 relative z-10">
             <FaStar className="group-hover:text-black duration-300 text-[#FFB902]" />
@@ -21,7 +22,9 @@ const ConsistentResults = () => {
           {/* ratings  */}
 
           {/* title */}
-          <h4 className="text-2xl relative z-10">Focus on what really matters</h4>
+          <h4 className="text-2xl relative z-10">
+            Focus on what really matters
+          </h4>
           {/* title */}
 
           <p className="text-justify relative z-10">
@@ -44,9 +47,9 @@ const ConsistentResults = () => {
             </div>
           </div>
           {/* commenter */}
-       <div className="absolute w-full h-full bg-[#FFB902] duration-300 top-full left-0 group-hover:top-0 -z-0"></div>
+          <div className="absolute w-full h-full bg-[#FFB902] duration-300 top-full left-0 group-hover:top-0 -z-0"></div>
         </div>
-        <div className="flex justify-center  flex-col gap-8 flex-1 p-10 relative group overflow-hidden border border-[#FFB902] bg-white">
+        <div className="hidden md:flex justify-center  flex-col gap-8 w-full md:flex-1 px-4 py-6 md:px-10 md:py-10 relative group overflow-hidden border border-[#FFB902] bg-white">
           {/* ratings  */}
           <div className="flex items-center gap-2 relative z-10">
             <FaStar className="group-hover:text-black duration-300 text-[#FFB902]" />
@@ -57,7 +60,9 @@ const ConsistentResults = () => {
           {/* ratings  */}
 
           {/* title */}
-          <h4 className="text-2xl relative z-10">Focus on what really matters</h4>
+          <h4 className="text-2xl relative z-10">
+            Focus on what really matters
+          </h4>
           {/* title */}
 
           <p className="text-justify relative z-10">
@@ -80,9 +85,8 @@ const ConsistentResults = () => {
             </div>
           </div>
           {/* commenter */}
-       <div className="absolute w-full h-full bg-[#FFB902] duration-300 top-full left-0 group-hover:top-0 -z-0"></div>
+          <div className="absolute w-full h-full bg-[#FFB902] duration-300 top-full left-0 group-hover:top-0 -z-0"></div>
         </div>
-
       </div>
     </div>
   );
