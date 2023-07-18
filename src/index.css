@@ -21,7 +21,8 @@ body {
     #ffb800 360deg
   );
 
-  animation: rotate-center 5s infinite linear;
+  animation: rotate-center 3s infinite linear;
+   animation-direction: alternate;
   transform-origin: center;
 }
 
@@ -34,34 +35,151 @@ body {
   }
 }
 
-.circle{
-   
-    border-radius: 50%;
-    background: #ffffff00;
-    position: absolute;
-    z-index: -5;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 0 0 0 1px #fff9ea;
+.circle {
+  border-radius: 50%;
+  background: #ffffff00;
+  position: absolute;
+  z-index: -5;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 0 1px #fff9ea;
 }
 
-.circle-1{
-    width: 600px;
-    height: 600px;
+.circle-1 {
+  width: 600px;
+  height: 600px;
 }
 
-.circle-2{
-    width: 800px;
-    height: 800px;
+.circle-2 {
+  width: 800px;
+  height: 800px;
 }
 
-.circle-3{
-    width: 1000px;
-    height: 1000px;
+.circle-3 {
+  width: 1000px;
+  height: 1000px;
 }
 
-.circle-4{
-    width: 1200px;
-    height: 1200px;
+.circle-4 {
+  width: 1200px;
+  height: 1200px;
 }
+
+/* equalizer animations */
+.bar {
+  /* height: inherit; */
+  /* position: absolute; */
+  
+}
+.bar-1 {
+  animation: bar-1 3s infinite linear;
+  animation-direction: alternate;
+}
+
+.bar-2 {
+  animation: bar-2 3s infinite linear;
+  animation-delay: 1.5s;
+   animation-direction: alternate;
+  
+}
+
+.bar-3 {
+  animation: bar-3 3s infinite linear;
+   animation-direction: alternate;
+  
+}
+
+.bar-4 {
+  animation: bar-4 3s infinite linear;
+   animation-direction: alternate;
+  
+}
+
+.bar-5 {
+  animation: bar-5 3s infinite linear;
+   animation-direction: alternate;
+  
+}
+
+.bar-6 {
+  animation: bar-6 3s infinite linear;
+   animation-direction: alternate;
+  
+}
+
+@keyframes bar-1 {
+  0% {
+    height: 0%;
+  }
+  50% {
+    height: 80%;
+  }
+  70% {
+    height: 80%;
+  }
+  100% {
+    height: 100%;
+  }
+}
+
+@keyframes bar-2 {
+  0% {
+    height: 0%;
+  }
+  50% {
+    height: 20%;
+  }
+  70% {
+    height: 20%;
+  }
+  100% {
+    height: 100%;
+  }
+}
+
+@keyframes bar-3 {
+  0% {
+    height: 0%;
+  }
+ 
+  50% {
+    height: 50%;
+  }
+  
+  60% {
+    height: 0%;
+  }
+  
+  70% {
+    height: 0%;
+  }
+  
+  
+  80% {
+    height: 0%;
+  }
+  
+  100% {
+    height: 50%;
+  }
+}
+
+@keyframes bar-4 {
+  0% {
+    height: 0%;
+  }
+  100% {
+    height: 100%;
+  }
+}
+
+@keyframes bar-5 {
+  0% {
+    height: 50%;
+  }
+  100% {
+    height: 100%;
+  }
+}
+/* equalizer animations */

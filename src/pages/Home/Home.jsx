@@ -111,6 +111,7 @@ const Home = () => {
 
       <ScaleAtSpeed />
       {/* Scale at speed */}
+      
     </>
   );
 };

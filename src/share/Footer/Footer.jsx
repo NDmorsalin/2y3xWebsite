@@ -1,5 +1,7 @@
 const Footer = () => {
-  return <div>Footer</div>;
+  return <div className="px-10 py-16 relative bg-black">
+    
+  </div>;
 };
 
 export default Footer;
