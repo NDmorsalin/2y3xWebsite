@@ -76,7 +76,7 @@ const FreeHindsight = () => {
             stock, and chart your next move.
           </p>
 
-          <button className="border-2 border-white py-4 px-10  hover:text-black hover:bg-white duration-300 text-white bg-transparent">
+          <button className="border-2 border-white md:py-4 py-2  md:px-10 px-4  hover:text-black hover:bg-white duration-300 text-white bg-transparent">
             Take the fast self assessment
           </button>
         </div>
