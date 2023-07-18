@@ -6,17 +6,17 @@ import PropositionDevelopment from "../../../assets/OurProgrammes/PropositionDev
 const OurProgrammes = () => {
   return (
     <>
-      <section className="w-full px-10 py-16">
+      <section className="w-full md:px-10 px-4 py-16 text-black">
         {/* revinew start */}
         {/* section title */}
-        <div className="text-center space-y-6">
+        <div className="text-center space-y-4 md:space-y-6">
           <p className="">Start your 2Y3X journey</p>
-          <h2 className="text-6xl ">Our programmes and workshops</h2>
+          <h2 className="md:text-6xl text-4xl ">Our programmes and workshops</h2>
         </div>
 
-        <div className="flex  justify-center flex-wrap mt-16">
+        <div className="flex  justify-center flex-wrap mt-16 flex-col md:flex-row md:gap-2 gap-8 ">
           {/* StrategyMap */}
-          <div className="flex justify-center items-center flex-col gap-8 flex-1 p-12 relative group overflow-hidden">
+          <div className="flex justify-center items-center flex-col gap-8 md:flex-1 px-4 py-8 md:px-12 md:py-12 relative group overflow-hidden">
             {/* hover animation start */}
             <div className="absolute w-full h-full flex top-0 left-0 -z-10">
               <div className="w-1/4 absolute h-full top-full group-hover:top-0 duration-300 delay-0 left-0 bg-[#FFB902] border border-[#FFB902] border-r-white"></div>
@@ -37,7 +37,7 @@ const OurProgrammes = () => {
           </div>
 
           {/* QuickMap */}
-          <div className="flex justify-center items-center flex-col gap-8 flex-1 p-12 relative group overflow-hidden">
+          <div className="flex justify-center items-center flex-col gap-8 md:flex-1 px-4 py-8 md:px-12 md:py-12 relative group overflow-hidden">
             {/* hover animation start */}
             <div className="absolute w-full h-full flex top-0 left-0 -z-10">
               <div className="w-1/4 absolute h-full top-full group-hover:top-0 duration-300 delay-0 left-0 bg-[#FFB902] border border-[#FFB902] border-r-white"></div>
@@ -58,7 +58,7 @@ const OurProgrammes = () => {
           </div>
 
           {/* PropositionDevelopment */}
-          <div className="flex justify-center items-center flex-col gap-8 flex-1 p-12 relative group overflow-hidden">
+          <div className="flex justify-center items-center flex-col gap-8 md:flex-1 px-4 py-8 md:px-12 md:py-12 relative group overflow-hidden">
             {/* hover animation start */}
             <div className="absolute w-full h-full flex top-0 left-0 -z-10">
               <div className="w-1/4 absolute h-full top-full group-hover:top-0 duration-300 delay-0 left-0 bg-[#FFB902] border border-[#FFB902] border-r-white"></div>

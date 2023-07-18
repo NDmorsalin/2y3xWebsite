@@ -84,7 +84,7 @@ const Home = () => {
       {/* client end */}
 
       {/* our programmes start */}
-      {/* <OurProgrammes /> */}
+      <OurProgrammes />
       {/* our programmes end */}
 
       {/* strengths start */}
