@@ -57,11 +57,12 @@ const Home = () => {
 
       {/* Agencies we’ve levelled up start */}
 
-      <div className=" px-10 py-16 flex items-center gap-16 flex-col md:flex-row">
-        <div className="w-fit">
-          <p className="mb-8 font-medium">Agencies we’ve levelled up</p>
-          <h2 className="text-7xl  mb-8">
-            Grown <span className="block">by 2Y3X</span>
+      <div className="px-4 py-8 md:px-10 md:py-16 flex items-center gap-16 flex-col md:flex-row">
+        <div className="w-full md:w-fit text-center md:text-start">
+          <p className="font-medium text-black hidden md:block">Agencies we’ve levelled up</p>
+          <p className="mb-4 md:mb-8 font-medium text-black md:hidden">Our Partner</p>
+          <h2 className="text-4xl md:text-7xl  mb-8">
+            Grown <span className="md:block">by 2Y3X</span>
           </h2>
         </div>
         <div className="flex-1 flex items-center flex-wrap gap-8 justify-center ">
@@ -72,44 +73,44 @@ const Home = () => {
       </div>
       {/* Agencies we’ve levelled up end */}
 
-      <FreeHindsight />
+      {/* <FreeHindsight /> */}
 
       {/* Revenue video start*/}
-      <Revenue />
+      {/* <Revenue /> */}
       {/* Revenue video end*/}
 
       {/* client start */}
-      <ClientSay />
+      {/* <ClientSay /> */}
       {/* client end */}
 
       {/* our programmes start */}
-      <OurProgrammes />
+      {/* <OurProgrammes /> */}
       {/* our programmes end */}
 
       {/* strengths start */}
-      <Strengths />
+      {/* <Strengths /> */}
       {/* strengths End */}
 
       {/* Growth  start */}
 
-      <Growth />
+      {/* <Growth /> */}
       {/* Growth  end */}
 
       {/*  Consistent results start */}
-      <ConsistentResults />
+      {/* <ConsistentResults /> */}
       {/*  Consistent results end */}
 
       {/* Featured Insights start */}
-      <FeaturedInsights />
+      {/* <FeaturedInsights /> */}
       {/* Featured Insights end */}
 
       {/* Featured Podcasts */}
-      <FeaturedPodcasts />
+      {/* <FeaturedPodcasts /> */}
       {/* Featured Podcasts */}
 
       {/* Scale at speed */}
 
-      <ScaleAtSpeed />
+      {/* <ScaleAtSpeed /> */}
       {/* Scale at speed */}
       
     </>

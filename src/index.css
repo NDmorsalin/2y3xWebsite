@@ -22,7 +22,7 @@ body {
   );
 
   animation: rotate-center 3s infinite linear;
-   animation-direction: alternate;
+  /* animation-direction: reverse; */
   transform-origin: center;
 }
 
@@ -47,23 +47,23 @@ body {
 }
 
 .circle-1 {
-  width: 600px;
-  height: 600px;
+  width: 300px;
+  height: 300px;
 }
 
 .circle-2 {
-  width: 800px;
-  height: 800px;
+  width: 500px;
+  height: 500px;
 }
 
 .circle-3 {
-  width: 1000px;
-  height: 1000px;
+  width: 700px;
+  height: 700px;
 }
 
 .circle-4 {
-  width: 1200px;
-  height: 1200px;
+  width: 900px;
+  height: 900px;
 }
 
 /* equalizer animations */
@@ -183,3 +183,28 @@ body {
   }
 }
 /* equalizer animations */
+
+
+/* responsive  */
+@media (min-width: 768px){
+  
+.circle-1 {
+  width: 600px;
+  height: 600px;
+}
+
+.circle-2 {
+  width: 800px;
+  height: 800px;
+}
+
+.circle-3 {
+  width: 1000px;
+  height: 1000px;
+}
+
+.circle-4 {
+  width: 1200px;
+  height: 1200px;
+}
+}
