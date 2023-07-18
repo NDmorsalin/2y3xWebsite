@@ -107,12 +107,12 @@ const Home = () => {
       {/* Featured Insights end */}
 
       {/* Featured Podcasts */}
-      {/* <FeaturedPodcasts /> */}
+      <FeaturedPodcasts />
       {/* Featured Podcasts */}
 
       {/* Scale at speed */}
 
-      {/* <ScaleAtSpeed /> */}
+      <ScaleAtSpeed />
       {/* Scale at speed */}
       
     </>
