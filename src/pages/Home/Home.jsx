@@ -73,10 +73,10 @@ const Home = () => {
       </div>
       {/* Agencies we’ve levelled up end */}
 
-      {/* <FreeHindsight /> */}
+      <FreeHindsight />
 
       {/* Revenue video start*/}
-      {/* <Revenue /> */}
+      <Revenue />
       {/* Revenue video end*/}
 
       {/* client start */}
