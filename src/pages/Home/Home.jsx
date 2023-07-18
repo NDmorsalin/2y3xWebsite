@@ -99,7 +99,7 @@ const Home = () => {
 
       {/* Growth  start */}
 
-      {/* <Growth /> */}
+      <Growth />
       {/* Growth  end */}
 
       {/* Featured Insights start */}
