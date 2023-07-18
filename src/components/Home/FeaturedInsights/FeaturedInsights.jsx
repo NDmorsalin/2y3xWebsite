@@ -5,11 +5,11 @@ import SectionButton from "../../../share/SectionButton/SectionButton";
 
 const FeaturedInsights = () => {
   return (
-    <div className="px-10 py-16">
-      <p className="mb-3">Our Views</p>
+    <div className="px-4 md:px-10 py-16">
+      <p className="mb-3 text-center md:text-start">Our Views</p>
 
-      <div className="flex items-center justify-between">
-        <h2 className="text-6xl">Featured Insights</h2>
+      <div className="flex items-center justify-center md:justify-between">
+        <h2 className="md:text-6xl text-3xl">Featured Insights</h2>
 
         <div className=" items-center justify-center gap-4 hidden md:flex">
           <div className="border-2 duration-300 border-[#fac233e0] hover:border-[#FFB902] p-2">
@@ -22,7 +22,7 @@ const FeaturedInsights = () => {
       </div>
 
       {/* features */}
-      <div className="flex gap-8">
+      <div className="flex flex-col md:flex-row gap-8">
         <div className="flex-1">
           <img
             src={featuredInsights1}
@@ -42,11 +42,11 @@ const FeaturedInsights = () => {
             </div>
           </div>
 
-          <h3 className="text-4xl mb-4">
+          <h3 className="text-2xl  md:text-4xl mb-4">
             Title for featured story will go here across two lines if needed
           </h3>
 
-          <p className="text-xl">
+          <p className=" md:text-xl">
             {" "}
             Rorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
             turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus
@@ -61,7 +61,7 @@ const FeaturedInsights = () => {
           <img
             src={featuredInsights2}
             alt=""
-            className="max-w-full my-8 block aspect-video object-cover max-h-[750px]"
+            className="max-w-full my-8 block aspect-video object-cover "
           />
 
           <div className="flex items-center gap-2 my-4">
@@ -76,11 +76,11 @@ const FeaturedInsights = () => {
             </div>
           </div>
 
-          <h3 className="text-4xl mb-4">
+          <h3 className="text-2xl  md:text-4xl mb-4">
             Title for featured story will go here across two lines if needed
           </h3>
 
-          <p className="text-xl">
+          <p className=" md:text-xl">
             {" "}
             Rorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu
             turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus

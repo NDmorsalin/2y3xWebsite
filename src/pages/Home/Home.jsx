@@ -103,7 +103,7 @@ const Home = () => {
       {/* Growth  end */}
 
       {/* Featured Insights start */}
-      {/* <FeaturedInsights /> */}
+      <FeaturedInsights />
       {/* Featured Insights end */}
 
       {/* Featured Podcasts */}
